@@ -6,21 +6,22 @@
 A SAMPLE OUTPUT CAN BE SEEN BELOW :-
 
 INPUT - 
-  Grammar: 
-    E ->  TR
-    R ->  +TR
-    R ->  #
-    T ->  FS
-    S ->  *FS
-    S ->  #
-    F ->  (E)
-    F ->  i
 
-  Terminal Symbols:
-    +,  *,  (,  ),  i,  #
-   
-  Non-Terminal Symbols Leading to Epsilon(#):
-    R,  S
+    Grammar: 
+      E ->  TR
+      R ->  +TR
+      R ->  #
+      T ->  FS
+      S ->  *FS
+      S ->  #
+      F ->  (E)
+      F ->  i
+
+    Terminal Symbols:
+      +,  *,  (,  ),  i,  #
+
+    Non-Terminal Symbols Leading to Epsilon(#):
+      R,  S
 
 OUTPUT - 
 
